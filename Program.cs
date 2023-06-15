@@ -4,8 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace QuanLyThu
-
+namespace DanhGia
 {
     internal static class Program
     {
@@ -17,7 +16,7 @@ namespace QuanLyThu
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmThu());
+            Application.Run(new DanhGia());
         }
     }
 }
